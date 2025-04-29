@@ -1,0 +1,7 @@
+test/
+work/
+results/
+.nextflow
+.nextflow.log*
+demo_commands.sh
+conf/awsbatch.config
