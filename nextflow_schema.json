@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com///nextflow_schema.json",
+  "title": " pipeline parameters",
+  "description": "",
+  "type": "object",
+  "$defs": {
+    "input_output_options": {
+      "title": "Input/output options",
+      "type": "object",
+      "fa_icon": "fas fa-terminal",
+      "description": "Define where the pipeline should find input data and save output data.",
+      "required": ["samplesheet", "outdir"],
+      "properties": {
+        "samplesheet": {
+          "type": "string",
+          "description": "Input csv samplesheet file",
+          "fa_icon": "fas fa-file-csv"
+        },
+        "outdir": {
+          "type": "string",
+          "format": "directory-path",
+          "description": "The output directory where the results will be saved. You have to use absolute paths to storage on Cloud infrastructure.",
+          "fa_icon": "fas fa-folder-open",
+          "default": "results"
+        },
+        "outPrefix": {
+          "type": "string",
+          "default": "wgs",
+          "description": "Prefix to attach to output files",
+          "fa_icon": "fas fa-ad"
+        }
+      }
+    },
+    "genome_info": {
+      "title": "Genome Info",
+      "type": "object",
+      "description": "",
+      "default": "",
+      "properties": {
+        "reference": {
+          "type": "string",
+          "description": "Genome fasta reference for alignment and variant calling",
+          "fa_icon": "fas fa-dna"
+        },
+        "regions": {
+          "type": "string",
+          "description": "Bed file of regions to focus on and split computer across",
+          "fa_icon": "fas fa-map-marked-alt"
+        }
+      },
+      "required": ["reference", "regions"],
+      "fa_icon": "fas fa-code-branch"
+    },
+    "additional_parameters": {
+      "title": "Additional parameters",
+      "type": "object",
+      "description": "",
+      "default": "",
+      "properties": {
+        "skip_mapping": {
+          "type": "boolean",
+          "description": "Skip mapping steps, required the samplesheet to contain paths to bams",
+          "fa_icon": "fas fa-layer-group"
+        },
+        "skip_fastp": {
+          "type": "boolean",
+          "description": "Skip fastp",
+          "fa_icon": "fas fa-balance-scale"
+        },
+        "split_lines": {
+          "type": "integer",
+          "default": 0,
+          "description": "How many lines to split fastq files by for faster parallel alignment. Default 0 disables splitting",
+          "fa_icon": "fas fa-cut"
+        },
+        "skip_markdup": {
+          "type": "boolean",
+          "description": "Skip duplicate read marking",
+          "fa_icon": "fas fa-clone"
+        }
+      },
+      "fa_icon": "fas fa-clipboard-list"
+    }
+  },
+  "allOf": [
+    {
+      "$ref": "#/$defs/input_output_options"
+    },
+    {
+      "$ref": "#/$defs/genome_info"
+    },
+    {
+      "$ref": "#/$defs/additional_parameters"
+    }
+  ]
+}
