@@ -11,7 +11,6 @@ include { GATK4_MARKDUPLICATES } from '../modules/gatk4_markduplicates'
 include { AWK_SPLITBED } from '../modules/awk_splitbed'
 include { BCFTOOLS_GRP_CALL } from '../modules/bcftools_grp_call'
 include { BCFTOOLS_CONCAT } from '../modules/bcftools_concat'
-include { INDEX_BAM } from '../modules/index_bam'
 
 workflow DISCOVERY {
 
