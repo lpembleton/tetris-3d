@@ -6,8 +6,7 @@ process MOSDEPTH {
 
     output:
     path('*.global.dist.txt')   , emit: global_txt
-    path('*.summary.txt')       , emit: summary_txt
-    path  "versions.yml"        , emit: versions    
+    path('*.summary.txt')       , emit: summary_txt  
 
     script:
     """
