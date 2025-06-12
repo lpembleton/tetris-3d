@@ -13,15 +13,18 @@
       "properties": {
         "workflow": {
           "type": "string",
-          "fa_icon": "fas fa-bezier-curve"
+          "fa_icon": "fas fa-bezier-curve",
+          "hidden": true
         },
         "run_discovery": {
-          "type": "string",
-          "fa_icon": "fas fa-search"
+          "type": "boolean",
+          "fa_icon": "fas fa-search",
+          "description": "T/F to run the discovery pipeline, i.e. mapping & all novel variant calling"
         },
         "run_mapping": {
-          "type": "string",
-          "fa_icon": "fas fa-map-marked-alt"
+          "type": "boolean",
+          "fa_icon": "fas fa-map-marked-alt",
+          "description": "T/F to run just mapping pipeline, fastq to bams"
         }
       },
       "fa_icon": "fas fa-running"
@@ -103,7 +106,8 @@
         "max_samples": {
           "type": "integer",
           "default": 999999,
-          "fa_icon": "fas fa-list-ol"
+          "fa_icon": "fas fa-list-ol",
+          "description": "Number of lines to process from samplesheet"
         }
       },
       "fa_icon": "fas fa-clipboard-list"
