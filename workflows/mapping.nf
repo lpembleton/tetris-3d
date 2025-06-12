@@ -19,6 +19,7 @@ workflow MAPPING {
 	Channel
 		.fromPath(params.samplesheet)
 		.splitCsv(header:true)
+		.take(params.max_samples)  // Limit to specified number of rows
 		.map { row -> 
 			def meta = [
 				uuid: row.uuid,
