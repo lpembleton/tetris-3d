@@ -5,6 +5,27 @@
   "description": "",
   "type": "object",
   "$defs": {
+    "run_info": {
+      "title": "Run info",
+      "type": "object",
+      "description": "",
+      "default": "",
+      "properties": {
+        "workflow": {
+          "type": "string",
+          "fa_icon": "fas fa-bezier-curve"
+        },
+        "run_discovery": {
+          "type": "string",
+          "fa_icon": "fas fa-search"
+        },
+        "run_mapping": {
+          "type": "string",
+          "fa_icon": "fas fa-map-marked-alt"
+        }
+      },
+      "fa_icon": "fas fa-running"
+    },
     "input_output_options": {
       "title": "Input/output options",
       "type": "object",
@@ -78,12 +99,20 @@
           "type": "boolean",
           "description": "Skip duplicate read marking",
           "fa_icon": "fas fa-clone"
+        },
+        "max_samples": {
+          "type": "integer",
+          "default": 999999,
+          "fa_icon": "fas fa-list-ol"
         }
       },
       "fa_icon": "fas fa-clipboard-list"
     }
   },
   "allOf": [
+    {
+      "$ref": "#/$defs/run_info"
+    },
     {
       "$ref": "#/$defs/input_output_options"
     },
