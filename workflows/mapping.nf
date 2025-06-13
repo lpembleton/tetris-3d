@@ -41,11 +41,20 @@ workflow MAPPING {
 		// skip fastp
 		trimmed_reads_ch = samples_ch
 	} else {
+		// fun fastp and read split if split_lines > 0
 		FASTP(samples_ch, params.split_lines)
+
 		trimmed_reads_ch = FASTP.out.trimmed_reads
+        .flatMap { meta, read_type, fastq_files ->
+            // Group into pairs and create individual channel entries
+            fastq_files.collate(2).collect { pair ->
+                [meta, read_type, pair]
+            }
+        }
+		
 		ch_reports = ch_reports.mix(FASTP.out.fastp_reports)
 	}
-	
+
 	// QC on trimmed reads
 	FASTQC(trimmed_reads_ch)
     ch_reports = ch_reports.mix(FASTQC.out.zip.collect{ meta, logs -> logs })
