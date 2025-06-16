@@ -15,7 +15,7 @@ process GATK4_MARKDUPLICATES {
     def avail_mem = 16
     def prefix = task.ext.prefix ?: "${meta.pid}"
     """
-    gatk --java-options "-Xmx${avail_mem}g" MarkDuplicates \
+    gatk --java-options "-Xmx${avail_mem}g" "-XX:-UsePerfData" MarkDuplicates \
         --INPUT ${bam} \
         --OUTPUT ${prefix}.markdup.bam \
         --METRICS_FILE ${prefix}.metrics \
