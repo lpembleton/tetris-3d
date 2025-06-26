@@ -78,6 +78,7 @@ workflow MAPPING {
 		dedup_bams_ch = merged_bams_ch
 	} else {
 		GATK4_MARKDUPLICATES(merged_bams_ch)
+		ch_reports = ch_reports.mix(GATK4_MARKDUPLICATES.out.metrics)
 		dedup_bams_ch = GATK4_MARKDUPLICATES.out.bam
 	}
 
