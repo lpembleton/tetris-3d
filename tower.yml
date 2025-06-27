@@ -1,0 +1,4 @@
+reports:
+  # match any MultiQC report in any subdirectory
+  "**/multiqc_report.html":
+    display: "MultiQC Report"
