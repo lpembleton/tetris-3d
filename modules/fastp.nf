@@ -24,6 +24,8 @@ process FASTP {
             $args \
             2> ${prefix}.fastp.log
 
+        find . -name "*${prefix}*.fastp.fastq.gz" -type f -size 0 -delete
+
         """
     } else {
         """
@@ -38,6 +40,8 @@ process FASTP {
             --thread $task.cpus \
             $args \
             2> ${prefix}.fastp.log
+
+        find . -name "*${prefix}*.fastp.fastq.gz" -type f -size 0 -delete
 
         """
     }
