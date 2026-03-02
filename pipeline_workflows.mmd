@@ -1,0 +1,65 @@
+%%metro title: Nextflow Mapping + Discovery
+%%metro style: dark
+%%metro line: map | Mapping | #4CAF50
+%%metro line: qc | QC/Reporting | #2196F3
+%%metro line: disc | Discovery-Mapping | #F59E0B
+%%metro line: var | Variant Calling | #A855F7
+
+graph LR
+    subgraph entry [Workflow Selection]
+        main[main.nf]
+        choose{Choose workflow}
+        main -->|map,disc| choose
+    end
+
+    subgraph mapping [Mapping Workflow]
+        map_samples[FQ samplesheet]
+        map_fastp[FASTP]
+        ref_fasta[Reference FASTA]
+        map_bwa_idx[BWA_INDEX]
+        map_bwa_mem[BWA_MEM]
+        map_markdup[GATK4_MARKDUPLICATES]
+        map_stats[SAMTOOLS_STATS]
+        map_mos[MOSDEPTH]
+        map_multiqc[MULTIQC]
+
+        map_samples -->|map| map_fastp
+        map_fastp -->|map| map_bwa_mem
+        ref_fasta -->|map| map_bwa_idx
+        map_bwa_idx -->|map| map_bwa_mem
+        map_bwa_mem -->|map| map_markdup
+        map_markdup -->|map| map_stats
+        map_markdup -->|map| map_mos
+        map_stats -->|qc| map_multiqc
+        map_mos -->|qc| map_multiqc
+        map_fastp -->|qc| map_multiqc
+    end
+
+    subgraph discovery_map [Discovery: Input BAM]
+        bam_samples[BAM samplesheet]
+        index_bam[INDEX_BAM]
+
+        bam_samples -->|disc| index_bam
+    end
+
+    subgraph discovery_var [Discovery: Variant Calling]
+        disc_ref_fasta[Reference FASTA]
+        faidx[SAMTOOLS_FAIDX]
+        disc_bed[Regions BED]
+        splitbed[AWK_SPLITBED]
+        grp_call[BCFTOOLS_GRP_CALL]
+        concat[BCFTOOLS_CONCAT]
+        vcf_out[Discovery VCF output]
+
+        disc_ref_fasta -->|var| faidx
+        faidx -->|var| grp_call
+        disc_bed -->|var| splitbed
+        splitbed -->|var| grp_call
+        grp_call -->|var| concat
+        concat -->|var| vcf_out
+    end
+
+    choose -->|map| map_samples
+    choose -->|disc| bam_samples
+    map_markdup -->|var| grp_call
+    index_bam -->|var| grp_call

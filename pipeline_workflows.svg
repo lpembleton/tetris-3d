@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1506" height="545" viewBox="0 0 1506 545">
+<defs>
+</defs>
+<rect x="0" y="0" width="1506" height="545" fill="#2b2b2b" />
+<text x="60.0" y="30.0" font-size="24.0" fill="#ffffff" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" class="nf-metro-title">Nextflow Mapping + Discovery</text>
+<rect x="30.0" y="85.0" width="181.5" height="70.0" rx="8" ry="8" fill="#373737" stroke="#595959" stroke-width="1.0" />
+<circle cx="41.0" cy="70.0" r="11" fill="#333333" class="nf-metro-section-num-circle" />
+<text x="41.0" y="70.0" font-size="12" fill="#ffffff" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dy="0.3em">1</text>
+<text x="57.0" y="70.0" font-size="16.0" fill="#aaaaaa" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" dy="0.3em" class="nf-metro-section-label">Workflow Selection</text>
+<rect x="261.5" y="85.0" width="652.5" height="148.34955069665116" rx="8" ry="8" fill="#373737" stroke="#595959" stroke-width="1.0" />
+<circle cx="272.5" cy="70.0" r="11" fill="#333333" class="nf-metro-section-num-circle" />
+<text x="272.5" y="70.0" font-size="12" fill="#ffffff" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dy="0.3em">2</text>
+<text x="288.5" y="70.0" font-size="16.0" fill="#aaaaaa" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" dy="0.3em" class="nf-metro-section-label">Mapping Workflow</text>
+<rect x="261.5" y="301.32898741122773" width="181.5" height="70.0" rx="8" ry="8" fill="#373737" stroke="#595959" stroke-width="1.0" />
+<circle cx="272.5" cy="286.32898741122773" r="11" fill="#333333" class="nf-metro-section-num-circle" />
+<text x="272.5" y="286.32898741122773" font-size="12" fill="#ffffff" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dy="0.3em">3</text>
+<text x="288.5" y="286.32898741122773" font-size="16.0" fill="#aaaaaa" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" dy="0.3em" class="nf-metro-section-label">Discovery: Input BAM</text>
+<rect x="964.0" y="85.0" width="482.0" height="173.32898741122773" rx="8" ry="8" fill="#373737" stroke="#595959" stroke-width="1.0" />
+<circle cx="975.0" cy="70.0" r="11" fill="#333333" class="nf-metro-section-num-circle" />
+<text x="975.0" y="70.0" font-size="12" fill="#ffffff" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dy="0.3em">4</text>
+<text x="991.0" y="70.0" font-size="16.0" fill="#aaaaaa" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" dy="0.3em" class="nf-metro-section-label">Discovery: Variant Calling</text>
+<path d="M393.0,345.32898741122773 L443.0,345.32898741122773" stroke="#A855F7" stroke-width="3.0" stroke-linecap="round" />
+<path d="M443.0,345.32898741122773 L929.0,345.32898741122773 Q939.0,345.32898741122773,939.0,335.32898741122773 L939.0,235.32898741122773 Q939.0,225.32898741122773,949.0,225.32898741122773 L964.0,225.32898741122773" stroke="#A855F7" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M333.0,342.32898741122773 L393.0,342.32898741122773" stroke="#F59E0B" stroke-width="3.0" stroke-linecap="round" />
+<path d="M261.5,342.32898741122773 L333.0,342.32898741122773" stroke="#F59E0B" stroke-width="3.0" stroke-linecap="round" />
+<path d="M1232.0,225.32898741122773 L1237.0,225.32898741122773 Q1247.0,225.32898741122773,1252.2869543697589,216.84087139575715 L1271.7130456302411,185.65260972108442 Q1277.0,177.16449370561384,1287.0,177.16449370561384 L1292.0,177.16449370561384" stroke="#A855F7" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M964.0,225.32898741122773 L1035.5,225.32898741122773" stroke="#A855F7" stroke-width="3.0" stroke-linecap="round" />
+<path d="M964.0,225.32898741122773 L1035.5,225.32898741122773" stroke="#A855F7" stroke-width="3.0" stroke-linecap="round" />
+<path d="M1035.5,225.32898741122773 L1232.0,225.32898741122773" stroke="#A855F7" stroke-width="3.0" stroke-linecap="round" />
+<path d="M914.0,222.32898741122773 L964.0,225.32898741122773" stroke="#A855F7" stroke-width="3.0" stroke-linecap="round" />
+<path d="M1095.5,203.28101060449757 L1115.5,203.28101060449757 Q1125.5,203.28101060449757,1133.557900350739,209.20302393929867 L1147.442099649261,219.40697407642662 Q1155.5,225.32898741122773,1165.5,225.32898741122773 L1232.0,225.32898741122773" stroke="#A855F7" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M739.5,201.34955069665116 L792.5,201.34955069665116 Q802.5,201.34955069665116,811.7597571385259,197.57371996216102 L823.2402428614741,192.89234763337387 Q832.5,189.11651689888373,842.5,189.11651689888373 L864.0,189.11651689888373" stroke="#2196F3" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M1035.5,177.16449370561384 L1040.5,177.16449370561384 Q1050.5,177.16449370561384,1058.0423741105224,183.7305117361192 L1072.9576258894776,196.7149925739922 Q1080.5,203.28101060449757,1090.5,203.28101060449757 L1095.5,203.28101060449757" stroke="#A855F7" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M1292.0,177.16449370561384 L1352.0,177.16449370561384" stroke="#A855F7" stroke-width="3.0" stroke-linecap="round" />
+<path d="M333.0,172.23303379776746 L393.0,172.23303379776746" stroke="#4CAF50" stroke-width="3.0" stroke-linecap="round" />
+<path d="M393.0,172.23303379776746 L458.0,172.23303379776746 Q468.0,172.23303379776746,475.54237411052236,165.6670157672621 L490.45762588947764,152.6825349293891 Q498.0,146.11651689888373,508.0,146.11651689888373 L529.5,146.11651689888373" stroke="#4CAF50" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M589.5,152.11651689888373 L669.5,152.11651689888373 Q679.5,152.11651689888373,683.429115191845,161.31227971711763 L705.570884808155,213.13322459299383 Q709.5,222.32898741122773,719.5,222.32898741122773 L914.0,222.32898741122773" stroke="#A855F7" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M1095.5,151.04797680673013 L1115.5,151.04797680673013 Q1125.5,151.04797680673013,1129.2448343641242,160.32031284385013 L1151.7551656358758,216.05665137410773 Q1155.5,225.32898741122773,1165.5,225.32898741122773 L1232.0,225.32898741122773" stroke="#A855F7" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M739.5,149.11651689888373 L792.5,149.11651689888373 Q802.5,149.11651689888373,808.5,157.11651689888373 L826.5,181.11651689888373 Q832.5,189.11651689888373,842.5,189.11651689888373 L864.0,189.11651689888373" stroke="#2196F3" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M529.5,146.11651689888373 L589.5,146.11651689888373" stroke="#4CAF50" stroke-width="3.0" stroke-linecap="round" />
+<path d="M589.5,146.11651689888373 L739.5,146.11651689888373" stroke="#4CAF50" stroke-width="3.0" stroke-linecap="round" />
+<path d="M589.5,146.11651689888373 L669.5,146.11651689888373 Q679.5,146.11651689888373,684.4804693249598,154.7880176515294 L704.5195306750402,189.6780499440055 Q709.5,198.34955069665116,719.5,198.34955069665116 L739.5,198.34955069665116" stroke="#4CAF50" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M1035.5,129.0 L1040.5,129.0 Q1050.5,129.0,1058.557900350739,134.9220133348011 L1072.442099649261,145.12596347192903 Q1080.5,151.04797680673013,1090.5,151.04797680673013 L1095.5,151.04797680673013" stroke="#A855F7" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M80.0,123.0 L140.0,123.0" stroke="#F59E0B" stroke-width="3.0" stroke-linecap="round" />
+<path d="M393.0,123.0 L405.5,123.0 Q415.5,123.0,419.63198297775364,132.10641074581827 L441.36801702224636,180.01010615306546 Q445.5,189.11651689888373,455.5,189.11651689888373 L864.0,189.11651689888373" stroke="#2196F3" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M140.0,123.0 L211.5,123.0" stroke="#F59E0B" stroke-width="3.0" stroke-linecap="round" />
+<path d="M211.5,123.0 L221.5,123.0" stroke="#F59E0B" stroke-width="3.0" stroke-linecap="round" />
+<path d="M221.5,123.0 L224.5,123.0 Q234.5,123.0,234.5,133.0 L234.5,332.32898741122773 Q234.5,342.32898741122773,244.5,342.32898741122773 L261.5,342.32898741122773" stroke="#F59E0B" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M80.0,120.0 L140.0,120.0" stroke="#4CAF50" stroke-width="3.0" stroke-linecap="round" />
+<path d="M333.0,120.0 L393.0,120.0" stroke="#4CAF50" stroke-width="3.0" stroke-linecap="round" />
+<path d="M393.0,120.0 L405.5,120.0 Q415.5,120.0,423.04237411052236,126.56601803050538 L437.95762588947764,139.55049886837836 Q445.5,146.11651689888373,455.5,146.11651689888373 L529.5,146.11651689888373" stroke="#4CAF50" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M140.0,120.0 L211.5,120.0" stroke="#4CAF50" stroke-width="3.0" stroke-linecap="round" />
+<path d="M261.5,120.0 L333.0,120.0" stroke="#4CAF50" stroke-width="3.0" stroke-linecap="round" />
+<path d="M211.5,120.0 L221.5,120.0" stroke="#4CAF50" stroke-width="3.0" stroke-linecap="round" />
+<path d="M221.5,120.0 L261.5,120.0" stroke="#4CAF50" stroke-width="3.0" stroke-linecap="round" />
+<rect x="75.0" y="115.0" width="10.0" height="13.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="135.0" y="115.0" width="10.0" height="13.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="328.0" y="115.0" width="10.0" height="10.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="388.0" y="115.0" width="10.0" height="13.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="328.0" y="167.23303379776746" width="10.0" height="10.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="388.0" y="167.23303379776746" width="10.0" height="10.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="524.5" y="141.11651689888373" width="10.0" height="10.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="584.5" y="141.11651689888373" width="10.0" height="16.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="734.5" y="141.11651689888373" width="10.0" height="13.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="734.5" y="193.34955069665116" width="10.0" height="13.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="859.0" y="184.11651689888373" width="10.0" height="10.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="328.0" y="337.32898741122773" width="10.0" height="10.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="388.0" y="337.32898741122773" width="10.0" height="13.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="1030.5" y="124.0" width="10.0" height="10.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="1090.5" y="146.04797680673013" width="10.0" height="10.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="1030.5" y="172.16449370561384" width="10.0" height="10.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="1090.5" y="198.28101060449757" width="10.0" height="10.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="1227.0" y="220.32898741122773" width="10.0" height="10.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="1287.0" y="172.16449370561384" width="10.0" height="10.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<rect x="1347.0" y="172.16449370561384" width="10.0" height="10.0" rx="5.0" ry="5.0" fill="#ffffff" stroke="#333333" stroke-width="1.5" />
+<text x="333.0" y="131.0" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="hanging">FQ samplesheet</text>
+<text x="80.0" y="134.0" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="hanging">main.nf</text>
+<text x="333.0" y="183.23303379776746" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="hanging">Reference FASTA</text>
+<text x="1035.5" y="115.0" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="auto">Reference FASTA</text>
+<text x="333.0" y="353.32898741122773" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="hanging">BAM samplesheet</text>
+<text x="1035.5" y="163.16449370561384" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="auto">Regions BED</text>
+<text x="393.0" y="106.0" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="auto">FASTP</text>
+<text x="140.0" y="106.0" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="auto">Choose workflow</text>
+<text x="393.0" y="196.43303379776745" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="hanging">BWA_INDEX</text>
+<text x="393.0" y="328.32898741122773" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="auto">INDEX_BAM</text>
+<text x="1095.5" y="137.04797680673013" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="auto">SAMTOOLS_FAIDX</text>
+<text x="1095.5" y="214.28101060449757" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="hanging">AWK_SPLITBED</text>
+<text x="529.5" y="157.11651689888373" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="hanging">BWA_MEM</text>
+<text x="1232.0" y="236.32898741122773" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="hanging">BCFTOOLS_GRP_CALL</text>
+<text x="589.5" y="132.11651689888373" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="auto">GATK4_MARKDUPLICATES</text>
+<text x="1292.0" y="188.16449370561384" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="hanging">BCFTOOLS_CONCAT</text>
+<text x="739.5" y="160.11651689888373" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="hanging">SAMTOOLS_STATS</text>
+<text x="739.5" y="212.34955069665116" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="hanging">MOSDEPTH</text>
+<text x="1352.0" y="163.16449370561384" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="auto">Discovery VCF output</text>
+<text x="864.0" y="175.11651689888373" font-size="13.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" text-anchor="middle" dominant-baseline="auto">MULTIQC</text>
+<rect x="30.0" y="401.32898741122773" width="174.24" height="120.0" rx="6" ry="6" fill="rgba(0, 0, 0, 0.3)" />
+<path d="M42.0,425.32898741122773 L66.0,425.32898741122773" stroke="#4CAF50" stroke-width="3.0" stroke-linecap="round" />
+<text x="78.0" y="425.32898741122773" font-size="14.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" dy="0.3em">Mapping</text>
+<path d="M42.0,449.32898741122773 L66.0,449.32898741122773" stroke="#2196F3" stroke-width="3.0" stroke-linecap="round" />
+<text x="78.0" y="449.32898741122773" font-size="14.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" dy="0.3em">QC/Reporting</text>
+<path d="M42.0,473.32898741122773 L66.0,473.32898741122773" stroke="#F59E0B" stroke-width="3.0" stroke-linecap="round" />
+<text x="78.0" y="473.32898741122773" font-size="14.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" dy="0.3em">Discovery-Mapping</text>
+<path d="M42.0,497.32898741122773 L66.0,497.32898741122773" stroke="#A855F7" stroke-width="3.0" stroke-linecap="round" />
+<text x="78.0" y="497.32898741122773" font-size="14.0" fill="#e0e0e0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" dy="0.3em">Variant Calling</text>
+<text x="1476.0" y="537.0" font-size="8" fill="rgba(150, 150, 150, 0.6)" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" text-anchor="end">created with nf-metro v0.5.4</text>
+</svg>
