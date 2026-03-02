@@ -1,10 +1,8 @@
 process BWA_MEM {
     tag "mapping $meta.pid"
 
-    if( params.split_fastq == 0 && params.skip_markdup == true) {
-        publishDir "$params.outdir/mapping", pattern: '*.bam', mode: 'copy'
-		publishDir "$params.outdir/mapping", pattern: '*.bai', mode: 'copy'
-    }    
+	publishDir "$params.outdir/mapping", pattern: '*.bam', mode: 'copy', enabled: (params.split_fastq == 0 && params.skip_markdup)
+	publishDir "$params.outdir/mapping", pattern: '*.bai', mode: 'copy', enabled: (params.split_fastq == 0 && params.skip_markdup)
 
     input:
     tuple val(meta), val(read_type), path(reads)

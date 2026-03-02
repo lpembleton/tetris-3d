@@ -13,10 +13,10 @@ include { MULTIQC } from '../modules/multiqc'
 
 workflow MAPPING {
 
-	ch_reports = Channel.empty()
+	ch_reports = channel.empty()
 
 	// Read input samplesheet
-	Channel
+	channel
 		.fromPath(params.samplesheet)
 		.splitCsv(header:true)
 		.take(params.max_samples)  // Limit to specified number of rows

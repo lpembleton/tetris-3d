@@ -17,7 +17,7 @@ workflow DISCOVERY {
 	if (!params.skip_mapping) {
 
 		// Read input samplesheet
-		Channel
+		channel
 			.fromPath(params.samplesheet)
 			.splitCsv(header:true)
 			.map { row -> 
@@ -78,7 +78,7 @@ workflow DISCOVERY {
 
 	} else{
 
-		bam_ch = Channel
+		bam_ch = channel
 			.fromPath(params.samplesheet)
 			.splitCsv(header:true)
 			.map { row -> tuple(row.sample, file(row.bam)) }

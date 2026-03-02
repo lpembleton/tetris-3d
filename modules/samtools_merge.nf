@@ -1,10 +1,8 @@
 process SAMTOOLS_MERGE {
     tag "$meta.pid"
 
-    if( params.skip_markdup == true ) {
-        publishDir "$params.outdir/mapping", pattern: '*.merged.bam', mode: 'copy'
-        publishDir "$params.outdir/mapping", pattern: '*.merged.bam.bai', mode: 'copy'
-    }   
+    publishDir "$params.outdir/mapping", pattern: '*.merged.bam', mode: 'copy', enabled: params.skip_markdup
+    publishDir "$params.outdir/mapping", pattern: '*.merged.bam.bai', mode: 'copy', enabled: params.skip_markdup  
 
     input:
     tuple val(meta), path(input_files, stageAs: "?/*")
