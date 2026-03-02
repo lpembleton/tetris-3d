@@ -11,7 +11,7 @@
 - `mapping`: FASTQ to mapped BAM (+ QC and optional mark-duplicates)
 - `discovery`: mapping (or provided BAMs) + grouped variant discovery
 
-## Simplfied Pipeline Schematic
+## Simplified Pipeline Schematic
 
 ![Pipeline DAG](pipeline_workflows.svg)
 
